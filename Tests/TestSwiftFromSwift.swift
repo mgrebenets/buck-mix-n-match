@@ -17,6 +17,9 @@ class TestSwiftFromSwift: XCTestCase {
     // Trying to call this method via hexadecimalNSString "wrapper" will
     // cause a crash then!
     // Not sure if same happens for dynamic frameworks...
+    //
+    // Update: This got fixed by adding -ObjC linker flag.
+    // Now commenting this code out doesn't cause a crash any more.
     func testSwiftFromSwift2() {
         let data = "abc".data(using: .utf8)!
         XCTAssert(data.hexadecimalString() == "")
