@@ -29,3 +29,6 @@
              .idea, \
              buck-cache, \
              buck-out
+
+[buildfile]
+  includes = //DEFS

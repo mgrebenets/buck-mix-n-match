@@ -3,7 +3,7 @@
 apple_library(
     name='MyLib',
     visibility=['PUBLIC'],
-    swift_version = '4.0',
+    # swift_version = '4.0',
     exported_headers=glob([
         'Sources/**/*.h',
     ], excludes=[
@@ -28,6 +28,7 @@ apple_library(
 # Unit tests.
 apple_test(
     name='MyLibTests',
+    # swift_version = '4.0',
     info_plist='Tests/Info.plist',
     info_plist_substitutions={
         'PRODUCT_BUNDLE_IDENTIFIER': 'com.example.MyLibsTests',

@@ -1,0 +1,23 @@
+original_apple_library = apple_library
+def apple_library(
+  name,
+  swift_version = '4',
+  **kwargs
+):
+  original_apple_library(
+    name=name,
+    swift_version=swift_version,
+    **kwargs
+  )
+
+original_apple_test = apple_test
+def apple_test(
+  name,
+  swift_version = '4',
+  **kwargs
+):
+  original_apple_test(
+    name=name,
+    swift_version=swift_version,
+    **kwargs
+  )

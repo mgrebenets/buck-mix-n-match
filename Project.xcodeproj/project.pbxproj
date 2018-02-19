@@ -571,7 +571,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E295269867C00000000</string>
+			<string>1DD70E29CC4F69FA00000000</string>
 		</dict>
 		<key>4952437350C7218900000000</key>
 		<dict>
@@ -583,7 +583,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E2943446EE600000000</string>
+			<string>1DD70E29DB3F6AE400000000</string>
 		</dict>
 		<key>49524373A439BFE700000000</key>
 		<dict>
@@ -595,7 +595,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E29B6DB1A4800000000</string>
+			<string>1DD70E294ED6164600000000</string>
 		</dict>
 		<key>218C37090000000000000000</key>
 		<dict>
@@ -674,7 +674,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E29CC4F69FA00000000</string>
+			<string>1DD70E295269867C00000000</string>
 		</dict>
 		<key>4952437350C7218900000001</key>
 		<dict>
@@ -686,7 +686,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E29DB3F6AE400000000</string>
+			<string>1DD70E2943446EE600000000</string>
 		</dict>
 		<key>49524373A439BFE700000001</key>
 		<dict>
@@ -698,7 +698,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E294ED6164600000000</string>
+			<string>1DD70E29B6DB1A4800000000</string>
 		</dict>
 		<key>218C37090000000000000001</key>
 		<dict>
