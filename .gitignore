@@ -1,0 +1,101 @@
+# CBA common .gitignore
+
+# Exclude OS X folder attributes
+.DS_Store
+.LSOverride
+
+# CocoaPods
+# Include Pods directory
+DevelopmentPods/
+LocalPods/
+Podfile.custom
+Podfile.dev
+
+# Carthage
+# Include Carthage/Checkouts
+Carthage/Build
+
+# Buck
+.buckd
+buck-out
+
+# Xcode user data
+xcuserdata/
+
+# Exclude user-specific XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xccheckout
+*.xcscmblueprint
+
+## Other Xcode
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Git merge conflict artifacts
+*.orig
+
+# Build generated
+build/
+.build/
+DerivedData/
+archive/
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# OCLint
+compile_commands.json
+
+# Logs
+*.log
+
+# Gcovr code coverage
+*.gcda
+*.gcno
+
+# Fastlane
+report.xml
+cobertura.xml
+test_output/
+fastlane/html/
+oclint_report.*
+sonar-reports/
+.fastlane/html
+fastlane/html
+/test/
+build-times.report.*
+
+# SwiftLint
+swiftlint.report.*
+swiftlint.html
+
+# Documentation
+.yardoc/
+doc/
+docs/
+docsets/
+*.docset
+*.tgz
+docs.zip
+master-docs/
+release-docs/
+release-notes.md
+
+# Other IDE
+.idea/
+.vscode/
+
+# Temp, backup and swap files
+*~.nib
+*.swp
+*.bak

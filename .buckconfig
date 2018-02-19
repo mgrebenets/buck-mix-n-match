@@ -1,0 +1,31 @@
+
+[alias]
+  mylib = //:MyLib
+
+[cxx]
+  default_platform = iphonesimulator-x86_64
+  cflags = -g -fmodules -fobjc-arc -D BUCK -w
+  combined_preprocess_and_compile = true
+
+[swift]
+  version = 4
+  compiler_flags = -DBUCK -enable-testing -suppress-warnings
+  project_wmo = true
+
+[apple]
+  asset_catalog_validation = XCODE
+  use_swift_delegate = false
+  use_header_maps_in_xcode = false
+  xctool_path = /usr/local/bin/xctool
+  xctool_default_destination_specifier = platform=iOS Simulator,OS=11.2,name=iPhone X
+
+[project]
+    ide = xcode
+    ignore = .buckd, \
+             .fastlane, fastlane, \
+             .hg, \
+             .git, \
+             **/.git/**/*, \
+             .idea, \
+             buck-cache, \
+             buck-out
