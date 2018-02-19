@@ -3,6 +3,7 @@
 apple_library(
     name='MyLib',
     visibility=['PUBLIC'],
+    swift_version = '4.0',
     exported_headers=glob([
         'Sources/**/*.h',
     ], excludes=[
@@ -29,7 +30,7 @@ apple_test(
     name='MyLibTests',
     info_plist='Tests/Info.plist',
     info_plist_substitutions={
-        'PRODUCT_BUNDLE_IDENTIFIER': 'au.com.commbank.MyLibsTests',
+        'PRODUCT_BUNDLE_IDENTIFIER': 'com.example.MyLibsTests',
     },
     bridging_header='Tests/Bridging-Header.h',
     # preprocessor_flags = ['-D', 'PRODUCT_NAME=MyLib'],

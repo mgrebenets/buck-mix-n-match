@@ -1,5 +1,10 @@
 @import XCTest;
 
+//#import <MyLib/MyLib-Public-Swift.h>
+
+//#import "MyLibTests-Swift.h"
+
+// #import <MyLib/MyLib.h>
 #import <MyLib/MyLib-Public-Swift.h>
 
 @interface TestSwiftFromObjC : XCTestCase
