@@ -1,4 +1,4 @@
-# CBA common .gitignore
+# Common .gitignore
 
 # Exclude OS X folder attributes
 .DS_Store
