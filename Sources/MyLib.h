@@ -13,5 +13,5 @@ FOUNDATION_EXPORT const unsigned char MyLibVersionString[];
 // Not using <MyLib/PublicHeader.h> format because with this approach it will report these includes as non-modular includes
 // when building MyLib as framework
 
-#import "NSFileManager+MyLib.h"
-#import "NSString+MyLib.h"
+#import <MyLib/NSFileManager+MyLib.h>
+#import <MyLib/NSString+MyLib.h>

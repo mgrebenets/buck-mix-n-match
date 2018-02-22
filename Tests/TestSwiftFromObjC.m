@@ -1,11 +1,11 @@
 @import XCTest;
 
-//#import <MyLib/MyLib-Public-Swift.h>
+// This works with latest Facebook version of buck
+// #import <MyLib/MyLib-Public-Swift.h>
 
-//#import "MyLibTests-Swift.h"
+// @import Mylib;
 
-// #import <MyLib/MyLib.h>
-#import <MyLib/MyLib-Public-Swift.h>
+@import MyLib;
 
 @interface TestSwiftFromObjC : XCTestCase
 @end
