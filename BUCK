@@ -6,13 +6,6 @@ apple_library(
     exported_headers=glob([
         'Sources/**/*.h',
     ]),
-    # , excludes=[
-    #     'Sources/Bridging-Header.h',
-    # ]),
-    # bridging_header='Sources/Bridging-Header.h',
-    # headers=glob([
-    #     'Sources/**/*.h',
-    # ]),
     srcs=glob([
         'Sources/**/*.m',
         'Sources/**/*.swift',
@@ -32,14 +25,14 @@ apple_test(
     info_plist_substitutions={
         'PRODUCT_BUNDLE_IDENTIFIER': 'com.example.MyLibTests',
     },
-    # bridging_header='Tests/Bridging-Header.h',
     srcs=glob([
         'Tests/**/*.m',
         'Tests/**/*.swift',
     ]),
-    linker_flags=[
-        '-ObjC',
-    ],
+    # Uber fixed this, yay!
+    # linker_flags=[
+    #     '-ObjC',
+    # ],
     deps=[
         ':MyLib',
     ],

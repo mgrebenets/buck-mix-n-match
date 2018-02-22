@@ -1,11 +1,14 @@
 @import XCTest;
 
-// This works with latest Facebook version of buck
+// This works with latest Facebook version of buck and Xcode
 // #import <MyLib/MyLib-Public-Swift.h>
 
-// @import Mylib;
+// This works with Uber's version of buck and Xcode
+#import <MyLib/MyLib.h>
 
-@import MyLib;
+// This doesn't work with Xcode even in static library projects created from scratch.
+// But it does work with dynamic frameworks.
+// @import MyLib;
 
 @interface TestSwiftFromObjC : XCTestCase
 @end

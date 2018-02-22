@@ -8,9 +8,9 @@ public extension Data {
 }
 
 
-@objc public extension NSData {
+@objc extension NSData {
 
-    @objc public func hexadecimalNSString() -> NSString {
+    @objc public func _hexadecimalNSString() -> NSString {
         return (self as Data).hexadecimalString() as NSString
     }
 }

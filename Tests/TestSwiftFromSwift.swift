@@ -8,6 +8,7 @@ class TestSwiftFromSwift: XCTestCase {
     func testSwiftFromSwift() {
         let data = "abc".data(using: .utf8)! as NSData
         XCTAssert(data.hexadecimalNSString() == "")
+//        XCTAssert(data._hexadecimalNSString() == "")
     }
 
     // If the code below is commented, then hexadecimalString
@@ -20,8 +21,8 @@ class TestSwiftFromSwift: XCTestCase {
     //
     // Update: This got fixed by adding -ObjC linker flag.
     // Now commenting this code out doesn't cause a crash any more.
-    func testSwiftFromSwift2() {
-        let data = "abc".data(using: .utf8)!
-        XCTAssert(data.hexadecimalString() == "")
-    }
+//    func testSwiftFromSwift2() {
+//        let data = "abc".data(using: .utf8)!
+//        XCTAssert(data.hexadecimalString() == "")
+//    }
 }

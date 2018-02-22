@@ -15,3 +15,4 @@ FOUNDATION_EXPORT const unsigned char MyLibVersionString[];
 
 #import <MyLib/NSFileManager+MyLib.h>
 #import <MyLib/NSString+MyLib.h>
+#import <MyLib/NSData+MyLib.h>
